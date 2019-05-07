@@ -1,0 +1,16 @@
+Rene, por favor habilitar el ejecutable de construccion de reglas para el equipo donde van a trabajar o configurar, de esta manera:
+
+Ir a la ruta desde la linea de comandos Z:\Smartflex\OSS\Product\GENERAL\CLIENT\FORMS\PLL.
+
+Z:\Smartflex\OSS\Product\GENERAL\CLIENT\FORMS\PLL
+
+Ejecutar lo siguiene parados en esa ruta: Z:\Smartflex\OSS\Product\GENERAL\CLIENT\FORMS\PLL>regsvr32 -u RuleConstructor.ocx
+
+Volver a ejecutar lo siguiente desde la misma ruta: C:\SMARTFLEX\OSS\General\client\forms\pll>regsvr32 RuleConstructor.ocx 
+
+pasos ayuda para activar el editor de reglas 25/05/2017 
+
+--sacarlo de la carpeta del registro redegit
+Z:\Smartflex\OSS\Product\GENERAL\CLIENT\FORMS\PLL>regsvr32 -u RuleConstructor.ocx
+--se ingresa en z 
+Z:\Smartflex\OSS\Product\GENERAL\CLIENT\FORMS\PLL>regsvr32  RuleConstructor.ocx
